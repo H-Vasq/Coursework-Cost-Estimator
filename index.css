@@ -182,4 +182,23 @@ h1 {
     top: -5px;
     left: 29%;
     border: 2px solid white;
+    transition: 0.15s transform ease;
+}
+
+.slider .point:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+.scale {
+    width: 100%;
+}
+
+.slider .scale ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    font-weight: bold;
+    color: rgb(166, 166, 166);
 }
