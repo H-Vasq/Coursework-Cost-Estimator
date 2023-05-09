@@ -215,9 +215,24 @@ h1 {
     text-align: center;
     font-weight: bold;
     color: rgb(83, 49, 156);
+    text-transform: uppercase;
+}
+
+.card .top-section {
+    padding: 8px;
+}
+
+.card .top-section p {
+    margin: 4px 0;
 }
 
 .card .price {
     font-size: 42px;
     color: rgb(44, 44, 44);
+}
+
+.card hr {
+    width: 30%;
+    border: 1px solid rgb(210, 210, 210);
+    border-radius: 2px;
 }
