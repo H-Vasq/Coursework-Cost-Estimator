@@ -217,6 +217,7 @@ h1 {
     font-weight: bold;
     transition: 0.15s transform ease;
     color: rgb(83, 49, 156);
+    position: relative;
 }
 
 .card:hover {
@@ -258,4 +259,21 @@ h1 {
 .card button:hover {
     cursor: pointer;
     transform: scale(1.15);
+}
+
+.card .save-header {
+    color: white;
+    background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(53, 10, 74, 1) 36%,
+        rgba(83, 49, 156, 1) 100%
+    );
+    width: 100%;
+    position: absolute;
+    top: -24px;
+    left: 0;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
