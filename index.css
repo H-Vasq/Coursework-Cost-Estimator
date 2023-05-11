@@ -11,6 +11,7 @@ body {
 
 h1 {
     color: rgb(83, 49, 156);
+    margin: 32px 0 64px 0;
 }
 
 .container {
@@ -147,6 +148,7 @@ h1 {
 .slider{
     width: 100%;
     position: relative;
+    margin-bottom: 16px;
 }
 
 .slider .bar {
