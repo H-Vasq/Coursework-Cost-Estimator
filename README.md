@@ -1,4 +1,6 @@
-<h1>Work-In-Progress: Cost Estimator</h1>
+ # <div align="center" style="border-bottom: none"> Cost Estimator Prototype </div>
 
-Coursework Project
 
+<div align="center">
+<img src="PricingShot.png" width="800">
+</div>
